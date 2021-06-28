@@ -4,7 +4,7 @@ It's demo Server Sent Event (golang) with simple Javascript client.
 By default, the server sends every second a message(time event) with time of now in UTC(Coordinated Universal Time).
 
 ## Server in Golang
-conf.json file contains address, port and clock (by second) paramters. 
+conf.json file contains address, port and clock (by second) parameters.
 
 ## Message Structure
 
