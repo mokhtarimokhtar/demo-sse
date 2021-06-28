@@ -1,4 +1,4 @@
-# Demo SSE: Sever Sent Event
+# Demo Clock Times SSE: Sever Sent Event
 
 It's demo Server Sent Event (golang) with simple Javascript client.
 By default, the server sends every second a message(time event) with time of now in UTC(Coordinated Universal Time).
