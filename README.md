@@ -28,8 +28,15 @@ curl -N -H "Accept:text/event-stream" http://localhost:3000/clocktimes
 The file client/index.html can directly consumer SSE messages with Access-Control-Allow-Origin parameter.
 
 ## Usage Docker example
+- docker built -t <image_name:tag_version>
+```shell script
 docker build -t sse/goserver:0.1 .
+```
+- docker run -tid -p <host_port:container_port> --name <container_name><image_name:tag_version>
+```shell script
 docker run -tid -p 3000:3000 --name gosse sse/goserver:0.1
+```
+
 
 
 ## Resources
